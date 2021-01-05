@@ -27,3 +27,7 @@
 -keepnames class com.example.proguardtestapp.Student
 
 -optimizationpasses 5
+
+-optimizations class/marking/final
+
+-optimizations field/marking/private
